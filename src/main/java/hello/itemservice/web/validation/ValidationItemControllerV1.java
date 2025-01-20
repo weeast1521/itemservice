@@ -72,6 +72,7 @@ public class ValidationItemControllerV1 {
             log.info("errors = {} ", errors);
             model.addAttribute("errors", errors);
             return "validation/v1/addForm";
+
         }
 
         //성공 로직
